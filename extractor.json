@@ -1,0 +1,66 @@
+{
+  "providers": {
+    "animekai": {
+      "search": {
+        "url": "/anime/animekai/{query}",
+        "method": "GET",
+        "params": {
+          "query": "one piece"
+        }
+      },
+      "info": {
+        "url": "/anime/animekai/info?id={id}",
+        "method": "GET",
+        "params": {
+          "id": "one-piece"
+        }
+      },
+      "watch": {
+        "url": "/anime/animekai/watch/{episodeId}",
+        "method": "GET",
+        "params": {
+          "episodeId": "one-piece-episode-1"
+        }
+      }
+    },
+    "gogoanime": {
+      "search": {
+        "url": "/anime/gogoanime/{query}",
+        "method": "GET",
+        "params": {
+          "query": "one piece"
+        }
+      },
+      "info": {
+        "url": "/anime/gogoanime/info/{id}",
+        "method": "GET",
+        "params": {
+          "id": "one-piece"
+        }
+      },
+      "watch": {
+        "url": "/anime/gogoanime/watch/{episodeId}",
+        "method": "GET",
+        "params": {
+          "episodeId": "one-piece-episode-1"
+        }
+      }
+    },
+    "zoro": {
+      "search": {
+        "url": "/anime/zoro/{query}",
+        "method": "GET",
+        "params": {
+          "query": "one piece"
+        }
+      },
+      "info": {
+        "url": "/anime/zoro/info?id={id}",
+        "method": "GET",
+        "params": {
+          "id": "one-piece"
+        }
+      }
+    }
+  }
+}
